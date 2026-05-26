@@ -1,0 +1,26 @@
+# Reglas de comportamiento de la IA en este Workspace
+
+Por favor, lee y aplica estrictamente las reglas definidas en [rules.md](file:///c:/Users/Gamer/Desktop/project%20IA/rules.md) antes de escribir código:
+
+1. **Límite de líneas:** Ningún script de código debe tener más de 200 líneas.
+2. **Comentarios por línea:** Cada línea de código que programes DEBE tener su propio comentario explicativo.
+3. **Encabezado descriptivo:** Todos los scripts deben comenzar con un bloque de comentarios inicial que explique en detalle qué hace el script y su propósito.
+
+Ejemplo de formato esperado para cualquier script:
+
+```python
+# ==============================================================================
+# SCRIPT: calculadora.py
+# DESCRIPCIÓN: Este script realiza operaciones aritméticas básicas (suma, resta)
+#              interactuando con el usuario a través de la terminal.
+# ==============================================================================
+
+def sumar(a, b): # Definimos la función 'sumar' que acepta dos parámetros: a y b.
+    return a + b # Retornamos la suma de los valores a y b.
+
+# Solicitar números al usuario
+num1 = float(input("Número 1: ")) # Solicitamos el primer número y lo convertimos a float.
+num2 = float(input("Número 2: ")) # Solicitamos el segundo número y lo convertimos a float.
+resultado = sumar(num1, num2) # Llamamos a la función sumar y guardamos el resultado.
+print("El resultado es:", resultado) # Imprimimos el resultado final en la terminal.
+```
